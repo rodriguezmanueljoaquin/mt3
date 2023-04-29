@@ -52,8 +52,7 @@ setuptools.setup(
         'seqio @ git+https://github.com/google/seqio#egg=seqio',
         't5',
         't5x @ git+https://github.com/google-research/t5x#egg=t5x',
-        'tensorflow',
-        'tensorflow-datasets',
+        'tensorflow==2.12.0',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
